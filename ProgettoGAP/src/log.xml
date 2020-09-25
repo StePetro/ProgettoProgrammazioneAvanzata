@@ -1,0 +1,25 @@
+<!-- File di Log -->
+
+<EventoDiNavigazioneGUI>
+  <timestamp>21 febbraio 2019 15:57:32.78</timestamp>
+  <indirizzoIP>196.0.0.2</indirizzoIP>
+  <oggetto>Finestra</oggetto>
+  <evento>APERTURA</evento>
+  <esito>Applicazione avviata con successo</esito>
+</EventoDiNavigazioneGUI>
+
+<EventoDiNavigazioneGUI>
+  <timestamp>21 febbraio 2019 15:57:44.01</timestamp>
+  <indirizzoIP>196.0.0.2</indirizzoIP>
+  <oggetto>Grafico a Torta</oggetto>
+  <evento>DETTAGLI STATISTICHE</evento>
+  <esito>Notificati i dettagli</esito>
+</EventoDiNavigazioneGUI>
+
+<EventoDiNavigazioneGUI>
+  <timestamp>21 febbraio 2019 15:57:47.76</timestamp>
+  <indirizzoIP>196.0.0.2</indirizzoIP>
+  <oggetto>Finestra</oggetto>
+  <evento>CHIUSURA</evento>
+  <esito>Applicazione chiusa con successo</esito>
+</EventoDiNavigazioneGUI>

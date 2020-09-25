@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+
+<!-- ValidazioneEventoLog.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="EventoDiNavigazioneGUI">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="timestamp"/>
+        <xs:element type="xs:string" name="indirizzoIP"/>
+        <xs:element type="xs:string" name="oggetto"/>
+        <xs:element type="xs:string" name="evento"/>
+        <xs:element type="xs:string" name="esito"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

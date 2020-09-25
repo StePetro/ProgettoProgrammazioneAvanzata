@@ -1,0 +1,49 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+
+<!-- ValidazioneFileDiConfigurazione.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Configurazione">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="preferenze">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="indirizzoIP"/>
+              <xs:element type="xs:float" name="percentualeTasse"/>
+              <xs:element type="xs:int" name="numeroDiRigheVisibiliNellaTabella"/>
+              <xs:element type="xs:int" name="codiceUtenteDelLocatore"/>
+              <xs:element type="xs:string" name="formattazioneGrafici"/>
+              <xs:element type="xs:string" name="gestisciSoloPrenotazioni"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="dbms">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="porta"/>
+              <xs:element type="xs:string" name="username"/>
+              <xs:element type="xs:string" name="password"/>
+              <xs:element type="xs:string" name="indirizzoIP"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="serverLog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="porta"/>
+              <xs:element type="xs:string" name="indirizzoIP"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+
+<!-- Made by: Stefano Petrocchi -->

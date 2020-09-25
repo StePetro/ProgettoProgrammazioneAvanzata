@@ -1,0 +1,25 @@
+<!-- File di configurazione -->
+<Configurazione>
+
+	<preferenze>
+		<indirizzoIP>196.0.0.2</indirizzoIP> <!-- del client -->
+		<percentualeTasse>0.22</percentualeTasse>
+		<numeroDiRigheVisibiliNellaTabella>1000</numeroDiRigheVisibiliNellaTabella>
+		<codiceUtenteDelLocatore>123456789</codiceUtenteDelLocatore>
+		<formattazioneGrafici>LLLL</formattazioneGrafici> <!--LLLL mese, YYYY anno, LLLL YYYY mese e anno-->
+		<gestisciSoloPrenotazioni>si</gestisciSoloPrenotazioni> <!--si: possono essere inserite o eliminate solo prenotazioni-->
+	</preferenze>
+
+	<dbms>
+		<porta>3306</porta>
+		<username>root</username>
+		<password></password>
+		<indirizzoIP>127.0.0.1</indirizzoIP>
+	</dbms>
+
+	<serverLog>
+		<porta>8080</porta>
+		<indirizzoIP>127.0.0.1</indirizzoIP>
+	</serverLog>
+  
+</Configurazione>

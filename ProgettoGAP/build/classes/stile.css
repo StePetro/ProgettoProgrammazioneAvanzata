@@ -1,0 +1,69 @@
+#titolo {
+   -fx-font-size: 100px;
+   -fx-font-family: "Impact";
+   -fx-fill: #657287;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#sottotitolo {
+   -fx-font-size: 40px;
+   -fx-font-family: "Thaorma";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+/*.root {
+    -fx-background-image: url("sfondoMattoni.jpg");
+    -fx-background-repeat: no-repeat;
+  	-fx-background-size: 2000px 1100px;
+}*/
+
+.text{
+	-fx-font-family: "Thaorma";
+	-fx-fill: #657287;
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.titled-pane .text{
+	-fx-font-family: "Thaorma";
+	-fx-fill: #657287;
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.table-view .label .text{
+	-fx-font-family: "Impact";
+	-fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.table-view .text{
+	-fx-font-family: "Thaorma";
+	-fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.chart .label .text{
+	-fx-font-family: "Impact";
+	-fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.titled-pane .title .text{
+	-fx-font-size: 35px;
+	-fx-font-family: "Impact";
+	-fx-fill: #585b60;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.titled-pane, .chart, .table-view{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.chart-bar, .chart-pie, .titled-pane .title, .table-view .column-header{
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.7), 6, 0.0 , 0 , 0);
+}
+
+.chart-pie {
+    -fx-background-insets: 0;
+    -fx-border-width: 0;
+}
